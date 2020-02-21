@@ -65,6 +65,12 @@
 
     @media @phone {
       margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      align-content: center;
+      padding: 1% 1%;
     }
 
     .walk-text {
@@ -72,6 +78,7 @@
 
       @media @phone {
         width: 100%;
+        padding: 4%;
       }
 
       h3 {
@@ -90,6 +97,12 @@
         cursor: pointer;
         text-align: center;
         font-size: 20px;
+
+        @media @phone {
+          width: 100%;
+          padding: 5%;
+          font-size: 14px;
+        }
       }
 
       .btn:hover {
@@ -104,14 +117,20 @@
 
       @media @phone {
         width: 100%;
-        padding: 1% 1%;
+        padding: 3% 2%;
         border-radius: 30px;
+        margin: 0 auto;
       }
 
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+        @media @phone {
+          display: flex;
+          justify-content: center;
+        }
       }
     }
   }
