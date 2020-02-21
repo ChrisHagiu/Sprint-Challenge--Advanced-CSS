@@ -2,7 +2,7 @@
   border-radius: 5px;
 }
 .nav-color {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -141,7 +141,7 @@ html {
 html,
 body {
   font-family: "Ubuntu", sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -149,7 +149,7 @@ h3,
 h4,
 h5 {
   font-family: "Russo One", sans-serif;
-  color: #23293B;
+  color: #23293b;
   font-size: 4rem;
 }
 h2 {
@@ -170,7 +170,7 @@ p {
 nav {
   align-items: center;
   width: 100%;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 nav .h1-title {
   display: flex;
@@ -254,6 +254,10 @@ footer {
   cursor: pointer;
   text-align: center;
   font-size: 20px;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: slategray;
+  color: yellow;
 }
 .home .walk .walk-img {
   width: 46%;
